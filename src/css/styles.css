@@ -4,6 +4,7 @@ body {
   align-items: center;
   height: calc(var(--vh) * 100);
   background-color: #fae1dd;
+  zoom: 1.25;
 }
 
 .container {
