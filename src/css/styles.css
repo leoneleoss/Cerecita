@@ -2,7 +2,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  height: calc(var(--vh) * 100);
   background-color: #fae1dd;
 }
 
@@ -223,6 +223,20 @@ body {
   }
   50% {
     transform: scaleX(0.85);
+  }
+
+}
+
+@media (max-width: 480px){
+
+  .valentines{
+    transform: scale(0.8);
+    top:20px;
+  }
+
+  .text{
+    font-size:14px;
+    left:35px;
   }
 
 }

@@ -3,7 +3,8 @@
     <head>
         <title> Cartita </title>
         <link rel="stylesheet" href="src/css/styles.css">
-        
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>
 
     <body>
@@ -12,7 +13,8 @@
                 <div class="envelope"></div>
                 <div class="front"></div>
                 <div class="card">
-                    <div class="text">¡Feliz San Valentin<br/>corazon de melón!<br> tqm uwu<br>
+                    <div class="text">
+                        ¡Feliz San Valentin<br/>corazon de melón!<br> tqm uwu<br>
                     <div class="text">
                     <div class="heart"></div>
                 </div>
@@ -33,7 +35,14 @@
         <script src="src/js/animacion.js"></script>
 
     </body>
-
+    <script>
+        function setRealHeight(){
+            let vh = window.innerHeight * 0.01;
+            document.documentElement.style.setProperty('--vh', `${vh}px`);
+        }
+        setRealHeight();
+        window.addEventListener('resize', setRealHeight);
+    </script>
 <html>
 
 
