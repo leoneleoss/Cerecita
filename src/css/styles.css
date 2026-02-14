@@ -73,7 +73,7 @@ body {
   font-weight: 400;
   font-style: normal;
   font-size: 13px;
-  text-align: left;
+  text-align: center;
   line-height:30px;
   top:19px;
   left:35px;
@@ -84,10 +84,10 @@ body {
   background-color: #d62828;
   display: inline-block;
   height: 30px;
-  margin: 0 15px;
+  margin: 0 px;
   position: relative;
-  top: 80px; 
-  left:0px;
+  top: 85px; 
+  left:50px;
   transform: rotate(-45deg);
   width: 30px;
 
